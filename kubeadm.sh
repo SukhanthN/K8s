@@ -14,7 +14,7 @@
 
 # Provide the ip of your system here:
 
-ip=`ip a | grep enp39s0 | tail -1 | awk '{print substr($2, -3, length($2)-3)}'`
+ip=`ip a | grep ens4 | tail -1 | awk '{print substr($2, -3, length($2)-3)}'`
 
 # Enabling debug mode
 
